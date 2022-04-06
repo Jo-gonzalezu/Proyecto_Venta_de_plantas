@@ -37,8 +37,20 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Carrito <img src="img\ico_carrito.png"
-                            width="25px" height="25px" style="align-content: flex-end;"></button>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                          Revisa tu carrito  <img src="img\ico_carrito.png" width="25px" height="25px">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" >Fake plant <img src="img\planta_carrito.png" width="50px" height="50px"></a>  </li>
+                          <li><a class="dropdown-item">cantidad : 1 <br> $8.990</a></li>
+                          <li><a class="dropdown-item active" >Fake plant <img src="img\planta_carrito2.png" width="50px" height="50px"></a>  </li>
+                          <li><a class="dropdown-item">cantidad : 3 <br> $29.990</a></li>
+                          <li><a class="dropdown-item" >total : $38.980</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item">ir a carrito</a></li>
+                        </ul>
+                    </div>
                 </form>
             </div>
         </div>
