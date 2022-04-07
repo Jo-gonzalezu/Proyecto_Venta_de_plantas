@@ -1,5 +1,5 @@
-.body{
-    background-color: #87ACC5;
+.body {
+  background-color: #87acc5;
 }
 .header{
     position: fixed;
@@ -12,9 +12,48 @@
 .main{
     padding-top: 70px;
 }
-.logo{
-    width: 35px;
+.logo {
+  width: 35px;
 }
-.btn btn-secondary dropdown-toggle{
-    background-color: #258022;
+.btn btn-secondary dropdown-toggle {
+  background-color: #258022;
 }
+.titlecarrito {
+  color: azure;
+  text-align: center;
+  font: italic bold 100px Georgia, Serif;
+}
+.button1 {
+    color: white;
+  background-color: #717471;
+  border:none;
+  border-radius: 6px;
+  text-align: center;
+}
+.borderformulario{
+    background-color: white;
+    width: 317px;
+    padding: 10px 10px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    
+}
+.formulario{
+    width: 300px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.orientacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
