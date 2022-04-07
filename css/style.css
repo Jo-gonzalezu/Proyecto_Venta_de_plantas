@@ -1,5 +1,5 @@
 .body {
-  background-color: #87acc5;
+  background-color: #D7E4A2;
 }
 .header{
     position: fixed;
@@ -56,4 +56,6 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.d-block{
+  height: 550px;
+}
