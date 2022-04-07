@@ -1,8 +1,16 @@
 .body{
     background-color: #87ACC5;
 }
-.navbar{
-    background-color: #B6C6D4;
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.main{
+    padding-top: 70px;
 }
 .logo{
     width: 35px;

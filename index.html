@@ -18,43 +18,47 @@
 
 <body class="body">
     <!-- Estructura Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Plantas <img class="logo"
-                    src="https://static.wikia.nocookie.net/terraria/images/d/d2/Plantera.gif/revision/latest/scale-to-width-down/1200?cb=20200621052441&path-prefix=es"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre nosotros 🌱</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Fundación ☘️</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                            Revisa tu carrito  <img src="img\ico_carrito.png" width="25px" height="25px">
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                            <li><a class="dropdown-item active" >Fake plant <img src="img\planta_carrito.png" width="50px" height="50px"></a>  </li>
-                            <li><a class="dropdown-item">cantidad : 1 <br> $8.990</a></li>
-                            <li><a class="dropdown-item active" >Fake plant <img src="img\planta_carrito2.png" width="50px" height="50px"></a>  </li>
-                            <li><a class="dropdown-item">cantidad : 3 <br> $29.990</a></li>
-                            <li><a class="dropdown-item" >total : $38.980</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item">ir a carrito</a></li>
-                        </ul>
-                    </div>
-                </form>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Plantas <img class="logo"
+                        src="https://static.wikia.nocookie.net/terraria/images/d/d2/Plantera.gif/revision/latest/scale-to-width-down/1200?cb=20200621052441&path-prefix=es"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre nosotros 🌱</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Fundación ☘️</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Revisa tu carrito  <img src="img\ico_carrito.png" width="25px" height="25px">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" >Fake plant <img src="img\planta_carrito.png" width="50px" height="50px"></a>  </li>
+                                <li><a class="dropdown-item">cantidad : 1 <br> $8.990</a></li>
+                                <li><a class="dropdown-item active" >Fake plant <img src="img\planta_carrito2.png" width="50px" height="50px"></a>  </li>
+                                <li><a class="dropdown-item">cantidad : 3 <br> $29.990</a></li>
+                                <li><a class="dropdown-item" >total : $38.980</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item">ir a carrito</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
+    <main class="main"></main>
 
     <!-- Estructura Carrusel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -100,8 +104,6 @@
     </div>     
 </div>
 
-    <p></p>
-
     <div class="container">
         <div class="row">
             <div class="col-1"></div>   <!-- Columna espacio 1 -->
@@ -111,8 +113,28 @@
                         <div class="card">
                         <img src="img\macetas_aqua.jpg" class="card-img-top">
                             <div class="card-body">
+                                <h5 class="card-title">Maceteros</h5>
+                                <p class="card-text">Recipiente en donde almacenar tu </p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="img\macetas_violeta.jpg" class="card-img-top">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">ttle bit longer.</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="img\macetas_regando.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Fertilizante</h5>
+                                <p class="card-text">Fertilizante que se echa a la tierra para hacerla más rica y más productiva.</p>
                                 <a href="#" class="btn btn-primary">Agregar al carrito</a>
                             </div>
                         </div>
@@ -123,16 +145,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                        <img src="img\macetas_regando.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                                 <a href="#" class="btn btn-primary">Agregar al carrito</a>
                             </div>
                         </div>
