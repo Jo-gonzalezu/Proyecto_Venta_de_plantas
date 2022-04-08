@@ -1,0 +1,64 @@
+.body {
+  background-color: #D7E4A2;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main{
+    padding-top: 70px;
+}
+.logo {
+  width: 35px;
+}
+.btn btn-secondary dropdown-toggle {
+  background-color: #258022;
+}
+.titlecarrito {
+  color: grey;
+  text-align: center;
+  font: italic bold 100px Georgia, Serif;
+}
+.button1 {
+    color: white;
+  background-color: #717471;
+  border:none;
+  border-radius: 6px;
+  text-align: center;
+}
+.borderformulario{
+    background-color: white;
+    width: 317px;
+    padding: 10px 10px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    
+}
+.formulario{
+    width: 300px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.orientacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.d-block{
+  height: 550px;
+}
+
+.card-img-top{
+  height: 250px;
+  width: 250px;
+}
