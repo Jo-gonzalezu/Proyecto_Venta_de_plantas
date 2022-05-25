@@ -62,3 +62,13 @@
   height: 250px;
   width: 250px;
 }
+
+    .carousel-item img{
+        height: 100vh;
+    }
+
+    .embellecedortexto{
+        padding: 40px;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
