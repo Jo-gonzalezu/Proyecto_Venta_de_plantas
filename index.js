@@ -40,3 +40,18 @@ productos.forEach((element) => {
     texto_iterable += tarjetita_html
     $("#productos").html( texto_iterable )
 });
+
+
+const users = [
+    {
+        name: "Admin",
+        password: "Admin"
+    },
+    {
+        name: "Visita",
+        password: "Admin"
+    }
+    
+]
+
+
