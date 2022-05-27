@@ -31,11 +31,11 @@
                 <!--Formulario de Login y registro-->
                 <div class="contenedor__login-register">
                     <!--Login-->
-                    <form action="" class="formulario__login">
+                    <form action="" id="form" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="email" placeholder="Correo Electronico" required>
-                        <input type="password" placeholder="Contraseña" required>
-                        <button>Entrar</button>
+                        <input type="email" id="emailtext" placeholder="Correo Electronico" required>
+                        <input type="password" id="passtext" placeholder="Contraseña" required>
+                        <button onclick="validarInicio()" type="submit">Entrar</button>
                     </form>
 
                     <!--Register-->

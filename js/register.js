@@ -62,3 +62,22 @@ anchoPage();
             caja_trasera_login.style.opacity = "1";
         }
 }
+
+var userAdmin = "admin@gmail.com"
+var passAdmin = "123"
+
+
+function validarInicio() {
+    document.getElementById("form").addEventListener("submit",(e)=>{
+        e.preventDefault();
+        var email=document.getElementById("emailtext");
+        var password = document.getElementById("passtext");
+    
+        if (email.value == "admin@gmail.com" && password.value == "123") {
+            window.location.href = "index.html";
+    
+        }else{
+            alert("Credenciales incorrectas.")
+        }
+    })
+}
