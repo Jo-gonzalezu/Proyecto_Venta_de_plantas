@@ -4,25 +4,25 @@ const baseDeDatos = [
         id: 1,
         nombre: 'Macetero ladrillo',
         precio: 2990,
-        imagen: 'patata.jpg'
+        imagen: '../img/macetas_violeta.jpg'
     },
     {
         id: 2,
-        nombre: 'Cebolla',
+        nombre: 'Fertilizante',
         precio: 1990,
-        imagen: 'cebolla.jpg'
+        imagen: '../img/macetas_regando.jpg'
     },
     {
         id: 3,
-        nombre: 'Calabacin',
+        nombre: 'Cactus',
         precio: 990,
-        imagen: 'calabacin.jpg'
+        imagen: '../img/macetas_aqua.jpg'
     },
     {
         id: 4,
-        nombre: 'Fresas',
+        nombre: 'Ficus',
         precio: 1000,
-        imagen: 'fresas.jpg'
+        imagen: '../img/planta_ficus.jpg'
     }
 
 ];
