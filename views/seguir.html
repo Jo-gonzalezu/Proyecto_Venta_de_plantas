@@ -54,29 +54,20 @@
                 </form>
             </div>
     </nav>
-    <div class="titlecarrito">
-        <h1>Seguimiento de tu compra</h1>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10"></div>
-            <div class="hr">
-                <hr size="8px">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-1"></div> <!-- Columna espacio 1 -->
-            <div class="col-10">
-                <!-- Columna espacio 10 -->
-                <label for="seguimiento"><b> Introduce tu codigo de pedido</b></label>
-                <br>
-                <input class="formulario" type="text" value="" style="width: 200px; height: 30px;"><button
-                    class="button1">Buscar tu pedido<br></button>
-            </div>
-            <img src="../img/mapa.png" >
-</body>
+    
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody id="seguimiento">
+        </tbody>
+      </table>
 
+</body>
 </html>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="../js/seguir.js"></script>  

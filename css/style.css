@@ -60,4 +60,16 @@
 
 .card-img-top{
   height: 250px;
-  
+}
+
+.estadoVerde{
+  color:green;
+}
+
+.estadoAzul{
+  color:blue;
+}
+
+.estadoPurpura{
+  color:purple;
+}
