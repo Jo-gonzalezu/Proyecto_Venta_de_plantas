@@ -74,7 +74,7 @@ function validarInicio() {
         var password = document.getElementById("passtext");
     
         if (email.value == "admin@gmail.com" && password.value == "123") {
-            window.location.href = "index.html";
+            window.location.href = "../index.html";
     
         }else{
             alert("Credenciales incorrectas.")
