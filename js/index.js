@@ -15,7 +15,7 @@ const baseDeDatos = [
     {
         id: 3,
         nombre: 'Cactus',
-        precio: 990,
+        precio: 5000,
         imagen: '../img/macetas_aqua.jpg'
     },
     {
@@ -23,8 +23,19 @@ const baseDeDatos = [
         nombre: 'Ficus',
         precio: 59990,
         imagen: '../img/planta_ficus.jpg'
-    }
-
+    },
+    {
+        id: 5,
+        nombre: 'Tierra',
+        precio: 10990,
+        imagen: '../img/tierra.jpeg'
+    },
+    {
+        id: 6,
+        nombre: 'Rociador',
+        precio: 10990,
+        imagen: '../img/rociador.jpeg'
+    },
 ];
 
 let carrito = [];
